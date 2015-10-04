@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D3F369A1BC106A500511505 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F36991BC106A500511505 /* CustomCell.swift */; settings = {ASSET_TAGS = (); }; };
+		0D3F369E1BC11DEC00511505 /* appleRainow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D3F369D1BC11DEC00511505 /* appleRainow.jpg */; settings = {ASSET_TAGS = (); }; };
+		501D26B31BA42FC80004F540 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501D26B21BA42FC80004F540 /* AppDelegate.swift */; };
+		501D26B51BA42FC80004F540 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501D26B41BA42FC80004F540 /* FirstViewController.swift */; };
+		501D26BA1BA42FC80004F540 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501D26B81BA42FC80004F540 /* Main.storyboard */; };
+		501D26BC1BA42FC80004F540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 501D26BB1BA42FC80004F540 /* Assets.xcassets */; };
+		501D26BF1BA42FC80004F540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501D26BD1BA42FC80004F540 /* LaunchScreen.storyboard */; };
+		501D26CA1BA42FC80004F540 /* MoneygerNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501D26C91BA42FC80004F540 /* MoneygerNoteTests.swift */; };
+		501D26D51BA42FC80004F540 /* MoneygerNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501D26D41BA42FC80004F540 /* MoneygerNoteUITests.swift */; };
+		507DD73A1BA53642002132DA /* DailyExpencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD7391BA53642002132DA /* DailyExpencesViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		507DD73C1BA536F9002132DA /* MonthlyExpencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD73B1BA536F9002132DA /* MonthlyExpencesViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		507DD73E1BA5376E002132DA /* AllGroupEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD73D1BA5376E002132DA /* AllGroupEditViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		507DD7401BA53821002132DA /* CategoryEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD73F1BA53821002132DA /* CategoryEditViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		507DD7421BA5384F002132DA /* CategorySelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD7411BA5384F002132DA /* CategorySelectViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		507DD7441BA53890002132DA /* SpecificGroupEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD7431BA53890002132DA /* SpecificGroupEditViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		507DD7471BA56FE3002132DA /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507DD7451BA56FE3002132DA /* Realm.framework */; };
+		507DD7481BA56FE3002132DA /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 507DD7451BA56FE3002132DA /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		507DD7491BA56FE3002132DA /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507DD7461BA56FE3002132DA /* RealmSwift.framework */; };
+		507DD74A1BA56FE3002132DA /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 507DD7461BA56FE3002132DA /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		507DD74E1BA57080002132DA /* ExpenceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD74D1BA57080002132DA /* ExpenceItem.swift */; settings = {ASSET_TAGS = (); }; };
+		507DD7501BA57205002132DA /* ExpenceCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD74F1BA57205002132DA /* ExpenceCategory.swift */; settings = {ASSET_TAGS = (); }; };
+		507DD7541BA575D4002132DA /* ExpenceGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD7531BA575D4002132DA /* ExpenceGroup.swift */; settings = {ASSET_TAGS = (); }; };
+		507DD7561BA5790C002132DA /* SampleDataMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DD7551BA5790C002132DA /* SampleDataMaker.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		501D26C61BA42FC80004F540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 501D26A71BA42FC80004F540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 501D26AE1BA42FC80004F540;
+			remoteInfo = MoneygerNote;
+		};
+		501D26D11BA42FC80004F540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 501D26A71BA42FC80004F540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 501D26AE1BA42FC80004F540;
+			remoteInfo = MoneygerNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		507DD74B1BA56FE4002132DA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				507DD74A1BA56FE3002132DA /* RealmSwift.framework in Embed Frameworks */,
+				507DD7481BA56FE3002132DA /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D3F36991BC106A500511505 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		0D3F369D1BC11DEC00511505 /* appleRainow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appleRainow.jpg; sourceTree = "<group>"; };
+		501D26AF1BA42FC80004F540 /* MoneygerNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneygerNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		501D26B21BA42FC80004F540 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		501D26B41BA42FC80004F540 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		501D26B91BA42FC80004F540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		501D26BB1BA42FC80004F540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		501D26BE1BA42FC80004F540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		501D26C01BA42FC80004F540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		501D26C51BA42FC80004F540 /* MoneygerNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneygerNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		501D26C91BA42FC80004F540 /* MoneygerNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneygerNoteTests.swift; sourceTree = "<group>"; };
+		501D26CB1BA42FC80004F540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		501D26D01BA42FC80004F540 /* MoneygerNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneygerNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		501D26D41BA42FC80004F540 /* MoneygerNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneygerNoteUITests.swift; sourceTree = "<group>"; };
+		501D26D61BA42FC80004F540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		507DD7391BA53642002132DA /* DailyExpencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyExpencesViewController.swift; sourceTree = "<group>"; };
+		507DD73B1BA536F9002132DA /* MonthlyExpencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthlyExpencesViewController.swift; sourceTree = "<group>"; };
+		507DD73D1BA5376E002132DA /* AllGroupEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllGroupEditViewController.swift; sourceTree = "<group>"; };
+		507DD73F1BA53821002132DA /* CategoryEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryEditViewController.swift; sourceTree = "<group>"; };
+		507DD7411BA5384F002132DA /* CategorySelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategorySelectViewController.swift; sourceTree = "<group>"; };
+		507DD7431BA53890002132DA /* SpecificGroupEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificGroupEditViewController.swift; sourceTree = "<group>"; };
+		507DD7451BA56FE3002132DA /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		507DD7461BA56FE3002132DA /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		507DD74D1BA57080002132DA /* ExpenceItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenceItem.swift; sourceTree = "<group>"; };
+		507DD74F1BA57205002132DA /* ExpenceCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenceCategory.swift; sourceTree = "<group>"; };
+		507DD7531BA575D4002132DA /* ExpenceGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenceGroup.swift; sourceTree = "<group>"; };
+		507DD7551BA5790C002132DA /* SampleDataMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleDataMaker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		501D26AC1BA42FC80004F540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				507DD7491BA56FE3002132DA /* RealmSwift.framework in Frameworks */,
+				507DD7471BA56FE3002132DA /* Realm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501D26C21BA42FC80004F540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501D26CD1BA42FC80004F540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		501D26A61BA42FC80004F540 = {
+			isa = PBXGroup;
+			children = (
+				507DD7451BA56FE3002132DA /* Realm.framework */,
+				507DD7461BA56FE3002132DA /* RealmSwift.framework */,
+				501D26B11BA42FC80004F540 /* MoneygerNote */,
+				501D26C81BA42FC80004F540 /* MoneygerNoteTests */,
+				501D26D31BA42FC80004F540 /* MoneygerNoteUITests */,
+				501D26B01BA42FC80004F540 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		501D26B01BA42FC80004F540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				501D26AF1BA42FC80004F540 /* MoneygerNote.app */,
+				501D26C51BA42FC80004F540 /* MoneygerNoteTests.xctest */,
+				501D26D01BA42FC80004F540 /* MoneygerNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		501D26B11BA42FC80004F540 /* MoneygerNote */ = {
+			isa = PBXGroup;
+			children = (
+				507DD74C1BA5704B002132DA /* Dao */,
+				501D26B21BA42FC80004F540 /* AppDelegate.swift */,
+				501D26B41BA42FC80004F540 /* FirstViewController.swift */,
+				501D26B81BA42FC80004F540 /* Main.storyboard */,
+				501D26BB1BA42FC80004F540 /* Assets.xcassets */,
+				501D26BD1BA42FC80004F540 /* LaunchScreen.storyboard */,
+				501D26C01BA42FC80004F540 /* Info.plist */,
+				507DD7391BA53642002132DA /* DailyExpencesViewController.swift */,
+				507DD73B1BA536F9002132DA /* MonthlyExpencesViewController.swift */,
+				0D3F369D1BC11DEC00511505 /* appleRainow.jpg */,
+				507DD73D1BA5376E002132DA /* AllGroupEditViewController.swift */,
+				507DD73F1BA53821002132DA /* CategoryEditViewController.swift */,
+				507DD7411BA5384F002132DA /* CategorySelectViewController.swift */,
+				507DD7431BA53890002132DA /* SpecificGroupEditViewController.swift */,
+				507DD7551BA5790C002132DA /* SampleDataMaker.swift */,
+				0D3F36991BC106A500511505 /* CustomCell.swift */,
+			);
+			path = MoneygerNote;
+			sourceTree = "<group>";
+		};
+		501D26C81BA42FC80004F540 /* MoneygerNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				501D26C91BA42FC80004F540 /* MoneygerNoteTests.swift */,
+				501D26CB1BA42FC80004F540 /* Info.plist */,
+			);
+			path = MoneygerNoteTests;
+			sourceTree = "<group>";
+		};
+		501D26D31BA42FC80004F540 /* MoneygerNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				501D26D41BA42FC80004F540 /* MoneygerNoteUITests.swift */,
+				501D26D61BA42FC80004F540 /* Info.plist */,
+			);
+			path = MoneygerNoteUITests;
+			sourceTree = "<group>";
+		};
+		507DD74C1BA5704B002132DA /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+				507DD74D1BA57080002132DA /* ExpenceItem.swift */,
+				507DD74F1BA57205002132DA /* ExpenceCategory.swift */,
+				507DD7531BA575D4002132DA /* ExpenceGroup.swift */,
+			);
+			name = Dao;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		501D26AE1BA42FC80004F540 /* MoneygerNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 501D26D91BA42FC80004F540 /* Build configuration list for PBXNativeTarget "MoneygerNote" */;
+			buildPhases = (
+				501D26AB1BA42FC80004F540 /* Sources */,
+				501D26AC1BA42FC80004F540 /* Frameworks */,
+				501D26AD1BA42FC80004F540 /* Resources */,
+				507DD74B1BA56FE4002132DA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoneygerNote;
+			productName = MoneygerNote;
+			productReference = 501D26AF1BA42FC80004F540 /* MoneygerNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		501D26C41BA42FC80004F540 /* MoneygerNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 501D26DC1BA42FC80004F540 /* Build configuration list for PBXNativeTarget "MoneygerNoteTests" */;
+			buildPhases = (
+				501D26C11BA42FC80004F540 /* Sources */,
+				501D26C21BA42FC80004F540 /* Frameworks */,
+				501D26C31BA42FC80004F540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				501D26C71BA42FC80004F540 /* PBXTargetDependency */,
+			);
+			name = MoneygerNoteTests;
+			productName = MoneygerNoteTests;
+			productReference = 501D26C51BA42FC80004F540 /* MoneygerNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		501D26CF1BA42FC80004F540 /* MoneygerNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 501D26DF1BA42FC80004F540 /* Build configuration list for PBXNativeTarget "MoneygerNoteUITests" */;
+			buildPhases = (
+				501D26CC1BA42FC80004F540 /* Sources */,
+				501D26CD1BA42FC80004F540 /* Frameworks */,
+				501D26CE1BA42FC80004F540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				501D26D21BA42FC80004F540 /* PBXTargetDependency */,
+			);
+			name = MoneygerNoteUITests;
+			productName = MoneygerNoteUITests;
+			productReference = 501D26D01BA42FC80004F540 /* MoneygerNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		501D26A71BA42FC80004F540 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = JBS;
+				TargetAttributes = {
+					501D26AE1BA42FC80004F540 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 6XX433ENGG;
+					};
+					501D26C41BA42FC80004F540 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 501D26AE1BA42FC80004F540;
+					};
+					501D26CF1BA42FC80004F540 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 501D26AE1BA42FC80004F540;
+					};
+				};
+			};
+			buildConfigurationList = 501D26AA1BA42FC80004F540 /* Build configuration list for PBXProject "MoneygerNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 501D26A61BA42FC80004F540;
+			productRefGroup = 501D26B01BA42FC80004F540 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				501D26AE1BA42FC80004F540 /* MoneygerNote */,
+				501D26C41BA42FC80004F540 /* MoneygerNoteTests */,
+				501D26CF1BA42FC80004F540 /* MoneygerNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		501D26AD1BA42FC80004F540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501D26BF1BA42FC80004F540 /* LaunchScreen.storyboard in Resources */,
+				501D26BC1BA42FC80004F540 /* Assets.xcassets in Resources */,
+				0D3F369E1BC11DEC00511505 /* appleRainow.jpg in Resources */,
+				501D26BA1BA42FC80004F540 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501D26C31BA42FC80004F540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501D26CE1BA42FC80004F540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		501D26AB1BA42FC80004F540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				507DD7441BA53890002132DA /* SpecificGroupEditViewController.swift in Sources */,
+				0D3F369A1BC106A500511505 /* CustomCell.swift in Sources */,
+				507DD7541BA575D4002132DA /* ExpenceGroup.swift in Sources */,
+				501D26B31BA42FC80004F540 /* AppDelegate.swift in Sources */,
+				507DD7421BA5384F002132DA /* CategorySelectViewController.swift in Sources */,
+				507DD73A1BA53642002132DA /* DailyExpencesViewController.swift in Sources */,
+				501D26B51BA42FC80004F540 /* FirstViewController.swift in Sources */,
+				507DD7501BA57205002132DA /* ExpenceCategory.swift in Sources */,
+				507DD73E1BA5376E002132DA /* AllGroupEditViewController.swift in Sources */,
+				507DD74E1BA57080002132DA /* ExpenceItem.swift in Sources */,
+				507DD7401BA53821002132DA /* CategoryEditViewController.swift in Sources */,
+				507DD73C1BA536F9002132DA /* MonthlyExpencesViewController.swift in Sources */,
+				507DD7561BA5790C002132DA /* SampleDataMaker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501D26C11BA42FC80004F540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501D26CA1BA42FC80004F540 /* MoneygerNoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501D26CC1BA42FC80004F540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501D26D51BA42FC80004F540 /* MoneygerNoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		501D26C71BA42FC80004F540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 501D26AE1BA42FC80004F540 /* MoneygerNote */;
+			targetProxy = 501D26C61BA42FC80004F540 /* PBXContainerItemProxy */;
+		};
+		501D26D21BA42FC80004F540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 501D26AE1BA42FC80004F540 /* MoneygerNote */;
+			targetProxy = 501D26D11BA42FC80004F540 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		501D26B81BA42FC80004F540 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				501D26B91BA42FC80004F540 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		501D26BD1BA42FC80004F540 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				501D26BE1BA42FC80004F540 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		501D26D71BA42FC80004F540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		501D26D81BA42FC80004F540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		501D26DA1BA42FC80004F540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MoneygerNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jbs.RealmSwiftTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		501D26DB1BA42FC80004F540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MoneygerNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jbs.RealmSwiftTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		501D26DD1BA42FC80004F540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoneygerNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jbs.MoneygerNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneygerNote.app/MoneygerNote";
+			};
+			name = Debug;
+		};
+		501D26DE1BA42FC80004F540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoneygerNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jbs.MoneygerNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneygerNote.app/MoneygerNote";
+			};
+			name = Release;
+		};
+		501D26E01BA42FC80004F540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MoneygerNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jbs.MoneygerNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MoneygerNote;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		501D26E11BA42FC80004F540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MoneygerNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jbs.MoneygerNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MoneygerNote;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		501D26AA1BA42FC80004F540 /* Build configuration list for PBXProject "MoneygerNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501D26D71BA42FC80004F540 /* Debug */,
+				501D26D81BA42FC80004F540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		501D26D91BA42FC80004F540 /* Build configuration list for PBXNativeTarget "MoneygerNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501D26DA1BA42FC80004F540 /* Debug */,
+				501D26DB1BA42FC80004F540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		501D26DC1BA42FC80004F540 /* Build configuration list for PBXNativeTarget "MoneygerNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501D26DD1BA42FC80004F540 /* Debug */,
+				501D26DE1BA42FC80004F540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		501D26DF1BA42FC80004F540 /* Build configuration list for PBXNativeTarget "MoneygerNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501D26E01BA42FC80004F540 /* Debug */,
+				501D26E11BA42FC80004F540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 501D26A71BA42FC80004F540 /* Project object */;
+}
