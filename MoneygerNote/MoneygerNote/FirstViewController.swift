@@ -33,16 +33,44 @@ class FirstViewController: UIViewController, UICollectionViewDataSource, UIColle
         return cell
     }
     
+    /* Sectionの数 */
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return 3
     }
     
+    /* Cellの数 */
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 20
+        return 6
     }
 
+    /* Sectionに値を設定する */
+    func collectionView(collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, atIndexPath indexPath: NSIndexPath) -> UICollectionReusableView {
+
+        let header:CustomHeader = collectionView.dequeueReusableSupplementaryViewOfKind(UICollectionElementKindSectionHeader, withReuseIdentifier: "header", forIndexPath: indexPath) as! CustomHeader
+        
+        header.header?.text = "section"
+        header.backgroundColor = UIColor(red: CGFloat(100) / 255.0, green: CGFloat(200) / 255.0, blue: CGFloat(140) / 255.0, alpha: CGFloat(1.0))
+        return header
+    }
+    
     @IBAction func switchToAllGroupEdit(sender: AnyObject) {
         self.performSegueWithIdentifier("AllGroupEdit", sender: self)
     }
 }
 
+class CustomHeader : UICollectionReusableView {
+    @IBOutlet weak var header:UILabel!
+}
+
+class CustomCell : UICollectionViewCell {
+    @IBOutlet weak var title:UILabel!
+    @IBOutlet weak var image:UIImageView!
+    
+    override init(frame: CGRect){
+        super.init(frame: frame)
+    }
+    required init(coder aDecoder: NSCoder){
+        super.init(coder: aDecoder)!
+    }
+    
+}

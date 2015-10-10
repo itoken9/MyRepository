@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D3F369A1BC106A500511505 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F36991BC106A500511505 /* CustomCell.swift */; settings = {ASSET_TAGS = (); }; };
 		0D3F369E1BC11DEC00511505 /* appleRainow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D3F369D1BC11DEC00511505 /* appleRainow.jpg */; settings = {ASSET_TAGS = (); }; };
 		501D26B31BA42FC80004F540 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501D26B21BA42FC80004F540 /* AppDelegate.swift */; };
 		501D26B51BA42FC80004F540 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501D26B41BA42FC80004F540 /* FirstViewController.swift */; };
@@ -65,7 +64,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0D3F36991BC106A500511505 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		0D3F369D1BC11DEC00511505 /* appleRainow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appleRainow.jpg; sourceTree = "<group>"; };
 		501D26AF1BA42FC80004F540 /* MoneygerNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneygerNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		501D26B21BA42FC80004F540 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -161,7 +159,6 @@
 				507DD7411BA5384F002132DA /* CategorySelectViewController.swift */,
 				507DD7431BA53890002132DA /* SpecificGroupEditViewController.swift */,
 				507DD7551BA5790C002132DA /* SampleDataMaker.swift */,
-				0D3F36991BC106A500511505 /* CustomCell.swift */,
 			);
 			path = MoneygerNote;
 			sourceTree = "<group>";
@@ -328,7 +325,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				507DD7441BA53890002132DA /* SpecificGroupEditViewController.swift in Sources */,
-				0D3F369A1BC106A500511505 /* CustomCell.swift in Sources */,
 				507DD7541BA575D4002132DA /* ExpenceGroup.swift in Sources */,
 				501D26B31BA42FC80004F540 /* AppDelegate.swift in Sources */,
 				507DD7421BA5384F002132DA /* CategorySelectViewController.swift in Sources */,
