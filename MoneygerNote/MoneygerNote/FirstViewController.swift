@@ -8,8 +8,14 @@
 
 import UIKit
 
-class FirstViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+class FirstViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UIScrollViewDelegate {
 
+    let BETWEEN_WIDTH = CGFloat(5)
+    let NUMPAGES = 3
+    var barColor = UIColor(red: CGFloat(0.18), green: CGFloat(0.80), blue: CGFloat(0.44), alpha: CGFloat(1.0))
+    var pageControl = UIPageControl()
+    @IBOutlet weak var scrollView: UIScrollView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -48,8 +54,10 @@ class FirstViewController: UIViewController, UICollectionViewDataSource, UIColle
 
         let header:CustomHeader = collectionView.dequeueReusableSupplementaryViewOfKind(UICollectionElementKindSectionHeader, withReuseIdentifier: "header", forIndexPath: indexPath) as! CustomHeader
         
+        header.calcLabel?.text = "計上"
+        header.calcButton?.setTitle("☆", forState: .Normal)
         header.header?.text = "section"
-        header.backgroundColor = UIColor(red: CGFloat(100) / 255.0, green: CGFloat(200) / 255.0, blue: CGFloat(140) / 255.0, alpha: CGFloat(1.0))
+        // header.backgroundColor = UIColor(red: CGFloat(100) / 255.0, green: CGFloat(200) / 255.0, blue: CGFloat(140) / 255.0, alpha: CGFloat(1.0))
         return header
     }
     
@@ -60,6 +68,8 @@ class FirstViewController: UIViewController, UICollectionViewDataSource, UIColle
 
 class CustomHeader : UICollectionReusableView {
     @IBOutlet weak var header:UILabel!
+    @IBOutlet weak var calcLabel:UILabel!
+    @IBOutlet weak var calcButton:UIButton!
 }
 
 class CustomCell : UICollectionViewCell {
